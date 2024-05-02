@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seccion_inicio {
+    background-color: #D9D9D9;
+    height: 100vh;
+    padding: 0 8vw;
+    color: #6E6E6E;
+}
+
+.seccion_inicio .cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}   
+
+.seccion_inicio .cabecera .logo {
+    display: flex;
+    align-items: end;
+}
+
+.seccion_inicio .cabecera .logo img{
+    height: 157px;
+}
+
+.seccion_inicio .cabecera .logo p{
+    font-size: 24px;
+    color: #00b2e3;
+    line-height: 39.06px;
+}
+
+.seccion_inicio .cabecera .logo p strong{ 
+    font-size: 32px;
+    color: #6E6E6E;
+}
+
+.seccion_inicio .cabecera .menu ul{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.seccion_inicio .cabecera .menu ul li{
+    list-style: none;
+    
+}
+
+
+.seccion_inicio .cabecera .menu ul li a{
+    color: #6E6E6E;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 29.3px;
+}
+
+.seccion_inicio .cabecera .menu ul li a:hover {
+    color: #00b2e3;
+}
+
+.seccion_inicio .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 790px;
+    gap: 100px;
+}
+
+.seccion_inicio .inicio h1{
+    font-size: 96px;
+    line-height: 117.19px;
+}
+
+.seccion_inicio .inicio h2{
+    font-size: 40px;
+}
+
+.seccion_inicio .inicio h2 span{ 
+    color: #00b2e3;
+    line-height: 48.83px;
+}
+
+.seccion_inicio .inicio button {
+    width: 258px;
+    height: 77px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    background-color: #00b2e3;
+    border: 0px ;
+    border-radius: 14px;
+    margin-right: 20px  ;
+}
+
+.seccion_principal {
+    margin: 142.93px;
+}
+
+.seccion_principal h2{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.19px;
+    text-align: left;
+    color: #6E6E6E;
+}
+
+.seccion_principal .cards {
+    margin: 15vh 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(4,200px);
+    gap: 20px;
+}
+
+.seccion_principal .cards div{
+    color: white;
+    font-size: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 20px;
+}
+
+.seccion_principal .cards .card1{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 2.png);
+}
+
+.seccion_principal .cards .card2{
+    grid-row: span 2;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 3.png);
+}
+
+.seccion_principal .cards .card3{
+    grid-column: span 2;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 4.png);
+}
+
+.seccion_principal .cards .card4{
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 9.png);
+}
+
+.seccion_principal .cards .card5{
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 7.png);
+}
+
+.seccion_principal .cards .card6{
+    grid-column: span 2;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 8.png);
+}
+
+.seccion_principal .cards div p{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+.pie{
+    background-color: #D9D9D9;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pie ul {
+    display: flex;
+    gap: 40px;
+}
+
+.pie ul li{
+    list-style: none;
+}
+
+.pie ul li a{
+    display: flex;
+    justify-content: center;
+    font-size:24px;
+    font-weight: 400;
+    color: #6E6E6E;
+    text-decoration: none;
+    line-height: 29.3px;
+}
+
+.pie p{
+    font-size:24px;
+    font-weight: 400;
+    color: #6E6E6E;
+    text-decoration: none;
+    line-height: 29.3px;
+}
